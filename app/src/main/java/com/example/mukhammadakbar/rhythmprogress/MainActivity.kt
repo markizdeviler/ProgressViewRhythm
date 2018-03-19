@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
 
         animationView.show()
         animationView.smoothToShow()
+        animationView.smoothToHide()
     }
 }
