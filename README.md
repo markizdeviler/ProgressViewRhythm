@@ -1,4 +1,6 @@
 # ProgressViewRhythm
+[![](https://jitpack.io/v/markizdeviler/ProgressViewRhythm.svg)](https://jitpack.io/#markizdeviler/ProgressViewRhythm)
+
  Demo progress library for "Rhythm" progress
 	
 ## Usage	
