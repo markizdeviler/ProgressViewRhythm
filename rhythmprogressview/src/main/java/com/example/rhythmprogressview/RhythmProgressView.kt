@@ -3,14 +3,10 @@ package com.example.rhythmprogressview
 import android.annotation.TargetApi
 import android.content.Context
 import android.graphics.Canvas
-import android.graphics.Color
 import android.graphics.drawable.Animatable
 import android.graphics.drawable.Drawable
 import android.os.Build
-import android.support.v4.content.ContextCompat
-import android.text.TextUtils
 import android.util.AttributeSet
-import android.util.Log
 import android.view.View
 import android.view.animation.AnimationUtils
 
@@ -60,6 +56,14 @@ class RhythmProgressView : View {
                 a.getResourceId(R.styleable.RhythmProgressAttr_animationLightColor, R.color.lastColor),
                 a.getResourceId(R.styleable.RhythmProgressAttr_animationDarkColor, R.color.dark), context)
         a.recycle()
+    }
+
+    fun setStyle(colorLoght: Int, colorDark: Int){
+        val drawable = RhythmProgressDrawable()
+        DEFAULT_INDICATOR = drawable
+        setIndicator(drawable)
+        drawable.setStyle(colorLoght, colorDark, context)
+        postInvalidate()
     }
 
     private fun setIndicator(d: RhythmProgressDrawable?) {

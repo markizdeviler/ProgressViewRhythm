@@ -50,7 +50,6 @@ class RhythmProgressDrawable : Drawable(), Animatable {
     }
 
     fun setStyle( colorLight: Int, colorDark: Int, context: Context) {
-        Log.d("style", "$colorDark | $colorLight")
         for (i in 0..6) {
             val paint = Paint()
             when (i) {

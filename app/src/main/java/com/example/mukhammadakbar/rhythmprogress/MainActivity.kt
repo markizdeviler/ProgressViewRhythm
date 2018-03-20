@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         animationView.show()
         animationView.smoothToShow()
-        animationView.smoothToHide()
+
+        animationView.setStyle(R.color.colorAccent, R.color.colorPrimaryDark)
     }
 }
