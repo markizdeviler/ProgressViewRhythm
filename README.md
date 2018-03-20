@@ -40,23 +40,23 @@ app:animationLightColor="your light color"
 
 ``` java 
 //to change color in java
-animationView.setStyle(R.color.your_light_color, R.color.your_dark_color)
+progressView.setStyle(R.color.your_light_color, R.color.your_dark_color)
 
 ```
 
 
 ``` java
 //to start animation
-animationView.show();
+progressView.show();
 
 //to start animation smoothly
-animationView.smoothToShow();
+progressView.smoothToShow();
 
 //to hide animation smoothly
-animationView.smoothToHide();
+progressView.smoothToHide();
 
 //to hide animation
-animationView.hide();
+progressView.hide();
 
 ```
 
