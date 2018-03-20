@@ -26,11 +26,22 @@ dependencies {
 
 <com.example.rhythmprogressview.RhythmProgressView
         android:id="@+id/progressView"
-	app:animationDarkColor="your dark color"
-	app:animationLightColor="your light color"
         android:layout_centerInParent="true"
         android:layout_width="50dp"
         android:layout_height="50dp" />
+```
+
+``` xml 
+//to change color in xml
+app:animationDarkColor="your dark color"
+app:animationLightColor="your light color"
+
+```
+
+``` java 
+//to change color in java
+animationView.setStyle(R.color.your_light_color, R.color.your_dark_color)
+
 ```
 
 
