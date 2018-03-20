@@ -17,7 +17,7 @@ allprojects {
 }
 
 dependencies {
-	compile 'com.github.markizdeviler:ProgressViewRhythm:1.0.3'
+	compile 'com.github.markizdeviler:ProgressViewRhythm:1.0.4'
 }
 ``` 
 
