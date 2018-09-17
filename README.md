@@ -9,7 +9,7 @@
 ## Usage	
 
 ### Step 1 
-```android
+```gradle
 allprojects {
 	repositories {
 		maven { url 'https://jitpack.io' }
@@ -23,7 +23,6 @@ dependencies {
 
 ### Step 2
 ``` xml
-
 <com.example.rhythmprogressview.RhythmProgressView
         android:id="@+id/progressView"
         android:layout_centerInParent="true"
@@ -31,34 +30,17 @@ dependencies {
         android:layout_height="50dp" />
 ```
 
-``` xml 
+``` android 
 //to change color in xml
 app:animationDarkColor="your dark color"
 app:animationLightColor="your light color"
 
 ```
 
-``` java 
+``` android 
 //to change color in java
 progressView.setStyle(R.color.your_light_color, R.color.your_dark_color)
 
 ```
-
-
-``` java
-//to start animation
-progressView.show();
-
-//to start animation smoothly
-progressView.smoothToShow();
-
-//to hide animation smoothly
-progressView.smoothToHide();
-
-//to hide animation
-progressView.hide();
-
-```
-
 --------
 #### Any Issues & contributions appreciated
