@@ -10,13 +10,13 @@
 ### Step 1 
 ```gradle
 allprojects {
-repositories {
-maven { url 'https://jitpack.io' }
-}
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
 }
 
 dependencies {
-compile 'com.github.markizdeviler:ProgressViewRhythm:1.0.4'
+    compile 'com.github.markizdeviler:ProgressViewRhythm:1.0.4'
 }
 ``` 
 
