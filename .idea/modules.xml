@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProgressViewRhythm.iml" filepath="$PROJECT_DIR$/.idea/modules/ProgressViewRhythm.iml" group="ProgressViewRhythm" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ProgressViewRhythm-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ProgressViewRhythm-app.iml" group="ProgressViewRhythm/app" />
       <module fileurl="file://$PROJECT_DIR$/RhythmProgress.iml" filepath="$PROJECT_DIR$/RhythmProgress.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rhythmprogressview/com.github.markizdeviler-rhythmprogressview.iml" filepath="$PROJECT_DIR$/.idea/modules/rhythmprogressview/com.github.markizdeviler-rhythmprogressview.iml" group="ProgressViewRhythm/rhythmprogressview" />
       <module fileurl="file://$PROJECT_DIR$/rhythmprogressview/rhythmprogressview.iml" filepath="$PROJECT_DIR$/rhythmprogressview/rhythmprogressview.iml" />
     </modules>
   </component>
