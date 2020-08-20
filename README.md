@@ -16,7 +16,7 @@ allprojects {
 }
 
 dependencies {
-    compile 'com.github.markizdeviler:ProgressViewRhythm:1.0.4'
+    compile 'com.github.markizdeviler:ProgressViewRhythm:1.0.5'
 }
 ``` 
 
@@ -29,14 +29,14 @@ dependencies {
     android:layout_height="50dp" />
 ```
 
-``` android 
+``` xml 
 //to change color in xml
 app:animationDarkColor="your dark color"
 app:animationLightColor="your light color"
 
 ```
 
-``` android 
+``` kotlin 
 //to change color in java
 progressView.setStyle(R.color.your_light_color, R.color.your_dark_color)
 
