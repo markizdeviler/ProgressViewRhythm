@@ -10,23 +10,23 @@
 ### Step 1 
 ```gradle
 allprojects {
-	repositories {
-		maven { url 'https://jitpack.io' }
-	}
+repositories {
+maven { url 'https://jitpack.io' }
+}
 }
 
 dependencies {
-	compile 'com.github.markizdeviler:ProgressViewRhythm:1.0.4'
+compile 'com.github.markizdeviler:ProgressViewRhythm:1.0.4'
 }
 ``` 
 
 ### Step 2
 ``` xml
 <com.example.rhythmprogressview.RhythmProgressView
-        android:id="@+id/progressView"
-        android:layout_centerInParent="true"
-        android:layout_width="50dp"
-        android:layout_height="50dp" />
+    android:id="@+id/progressView"
+    android:layout_centerInParent="true"
+    android:layout_width="50dp"
+    android:layout_height="50dp" />
 ```
 
 ``` android 
