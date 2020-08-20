@@ -3,7 +3,7 @@
 
  Demo progress library for "Rhythm" progress
 	
-![giphy](https://github.com/markizdeviler/ProgressViewRhythm/screens/progress.gif)
+![giphy](https://raw.githubusercontent.com/markizdeviler/ProgressViewRhythm/master/screens/progress.gif)
 
 ## Usage	
 
