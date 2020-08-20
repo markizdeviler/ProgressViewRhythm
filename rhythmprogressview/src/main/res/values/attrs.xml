@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="RhythmProgressAttr">
+    <declare-styleable name="RhythmProgressView">
         <attr name="minWidth" format="dimension" />
         <attr name="maxWidth" format="dimension"/>
         <attr name="minHeight" format="dimension" />
         <attr name="maxHeight" format="dimension"/>
-        <attr name="animationDarkColor" format="reference"/>
-        <attr name="animationLightColor" format="reference"/>
+        <attr name="animationDarkColor" format="color"/>
+        <attr name="animationLightColor" format="color"/>
     </declare-styleable>
 
 </resources>
